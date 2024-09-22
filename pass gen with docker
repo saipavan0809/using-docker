@@ -1,0 +1,10 @@
+This project is a Python application that generates a random password each time it is executed. The password generation is designed to be secure, incorporating a combination of letters, digits, and special characters for enhanced randomness.
+
+To make the application more portable and easier to deploy across different environments, it has been containerized using Docker. The Docker setup includes:
+
+A base image (python:3.x).
+The Python script is copied into the container.
+Any necessary dependencies are installed.
+The password generation script runs automatically when the container starts.
+With Docker, the application can be run on any machine with Docker installed, ensuring consistent execution regardless of the local environment.
+
